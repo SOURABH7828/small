@@ -1,0 +1,7 @@
+{
+    "version":2,
+    "name":"project_mern",
+    "builds":[{"src":"backend/server.js", "use":"@vercel/node"}],
+    "routes":[{"src":"/(.*)", "dest":"/server.js"}]
+}
+
